@@ -25,7 +25,7 @@ def flights():
     # Return all flights as JSON
     return df.to_json(orient='records')
 
-# Define the endpoint for getting flight data by ID
+# Endpoint for getting flight data by ID
 
 
 @app.route('/flight/<flight_id>', methods=['GET'])
